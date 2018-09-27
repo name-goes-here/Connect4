@@ -22,7 +22,7 @@ class Connect4 {
             displayBoard();
             boolean turn = true;
             //Algorithm for a player's turn
-            while(turn == true){
+            while(turn){
                 if(checkTie()){
                     ongoingGame = false;
                     turn = false;
